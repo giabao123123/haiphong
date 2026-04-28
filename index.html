@@ -342,7 +342,9 @@
         </article>
         <p style="font-size: 15px">
           (nguồn thông tin:
-          <a href="https://vi.wikipedia.org/wiki/Gia_Lai">Wikipedia Hải Phòng
+          <a href="https://vi.wikipedia.org/wiki/Gia_Lai"
+            >Wikipedia Hải Phòng </a
+          >)
         </p>
       </section>
       <hr />
@@ -1054,7 +1056,8 @@
             var drop = document.getElementById("tt-drop");
             if (drop && e.target !== inp && !drop.contains(e.target))
               drop.style.display = "none";
-          });          const menuLinks = document.querySelectorAll("#menu-list a");
+          });
+          const menuLinks = document.querySelectorAll("#menu-list a");
           const menuToggle = document.getElementById("menu-toggle");
           menuLinks.forEach((link) => {
             link.addEventListener("click", () => {
@@ -1062,20 +1065,20 @@
                 menuToggle.checked = false;
               }
             });
-          });        
+          });
           const menuScroll = document.querySelector(".menu-scroll");
-        const btnLeft = document.querySelector(".left-btn");
-        const btnRight = document.querySelector(".right-btn");
-        const step = 200;
-        btnRight.addEventListener("click", () => {
-          menuScroll.scrollLeft += step;
-        });
-        btnLeft.addEventListener("click", () => {
-          menuScroll.scrollLeft -= step;
-        });      
-        function toggleMenu() {
-        document.getElementById("navMenu").classList.toggle("w3-hide");
-      }
+          const btnLeft = document.querySelector(".left-btn");
+          const btnRight = document.querySelector(".right-btn");
+          const step = 200;
+          btnRight.addEventListener("click", () => {
+            menuScroll.scrollLeft += step;
+          });
+          btnLeft.addEventListener("click", () => {
+            menuScroll.scrollLeft -= step;
+          });
+          function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("w3-hide");
+          }
         </script>
       </section>
       <hr />
@@ -1377,7 +1380,7 @@
               class="w3-bar-item w3-button w3-padding"
               style="font-size: large"
             >
-              <strong>-Các lễ hội tiêu biểu của tỉnh Gia Lai:</strong>
+              <strong>-Các lễ hội tiêu biểu của tỉnh Hải Phòng:</strong>
             </summary>
             <ol type="1">
               <li>
@@ -4334,7 +4337,7 @@
       <hr />
       <section class="w3-row w3-padding-16 w3-content" id="DULICH">
         <h1 class="w3-center" style="font-size: 50px">DU LỊCH</h1>
-        <h2>-Gia Lai có những điểm du lịch nổi tiếng như:</h2>
+        <h2>-Hải Phòng có những điểm du lịch nổi tiếng như:</h2>
         <ol type="1">
           <li>
             <details>
